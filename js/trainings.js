@@ -1,4 +1,4 @@
-console.log("hi");
+console.log("hi there");
 
 const load = key => {
   try {
