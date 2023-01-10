@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    align-items: center;
+    color: #545454;
+    background-color: #F7F7F7;
+}
+
+.footer-devs-modal {
+    color: inherit;
+}
+
+.footer-devs-icon {
+    width: 14px;
+    height: 13px;
+    animation: heartbeat 1000ms infinite 0ms;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 5%;
+    }
+}
